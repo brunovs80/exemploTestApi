@@ -13,7 +13,6 @@ public class ApiTests {
         basePath = "/api";
     }
 
-
     @Test
     public void addUserSuccess() {
         ValidatableResponse validatableResponse = given().log().all().
