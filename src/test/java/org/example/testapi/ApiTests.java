@@ -13,8 +13,7 @@ public class ApiTests {
         basePath = "/api";
     }
 
-    
-    @Test
+        @Test
     public void addUserSuccess() {
         ValidatableResponse validatableResponse = given().log().all().
                 body("{\"name\": \"Bruno\", \"job\": \"QA\"}").
